@@ -5,10 +5,10 @@ const Header = props => {
   const { branding } = props;
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-danger mb-3 py-0" >
-      <div class="container">
+      <div className="container">
         <a href="/" className="navbar-brand">{branding}</a>
         <div>
-          <ul class="navbar-nav mr-auto">
+          <ul className="navbar-nav mr-auto">
             <li className="navbar-item">
               <a href="/" className="nav-link">Home</a>
             </li>
